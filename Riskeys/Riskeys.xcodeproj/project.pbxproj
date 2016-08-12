@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13B7EFD1D5E7F3200D283A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7EFC1D5E7F3200D283A8 /* AppDelegate.swift */; };
+		F13B7EFF1D5E7F3200D283A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7EFE1D5E7F3200D283A8 /* ViewController.swift */; };
+		F13B7F021D5E7F3200D283A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F001D5E7F3200D283A8 /* Main.storyboard */; };
+		F13B7F041D5E7F3200D283A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F031D5E7F3200D283A8 /* Assets.xcassets */; };
+		F13B7F071D5E7F3200D283A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F051D5E7F3200D283A8 /* LaunchScreen.storyboard */; };
+		F13B7F151D5E7F6F00D283A8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7F141D5E7F6F00D283A8 /* KeyboardViewController.swift */; };
+		F13B7F191D5E7F6F00D283A8 /* Riskeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F13B7F121D5E7F6F00D283A8 /* Riskeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F13B7F1F1D5E7FC300D283A8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7F1E1D5E7FC300D283A8 /* CustomTableViewCell.swift */; };
+		F13B7F211D5E7FE300D283A8 /* GetHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7F201D5E7FE300D283A8 /* GetHelp.swift */; };
+		F13B7F231D5E7FED00D283A8 /* InfoHotlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7F221D5E7FED00D283A8 /* InfoHotlines.swift */; };
+		F13B7F251D5E7FFB00D283A8 /* SendHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7F241D5E7FFB00D283A8 /* SendHelp.swift */; };
+		F13B7F271D5E809700D283A8 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F261D5E809700D283A8 /* CustomTableViewCell.xib */; };
+		F13B7F291D5E80A800D283A8 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F281D5E80A800D283A8 /* View.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13B7F171D5E7F6F00D283A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13B7EF11D5E7F3200D283A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13B7F111D5E7F6F00D283A8;
+			remoteInfo = Riskeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F13B7F1D1D5E7F6F00D283A8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F13B7F191D5E7F6F00D283A8 /* Riskeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F13B7EF91D5E7F3200D283A8 /* Riskeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riskeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B7EFC1D5E7F3200D283A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F13B7EFE1D5E7F3200D283A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13B7F011D5E7F3200D283A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13B7F031D5E7F3200D283A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13B7F061D5E7F3200D283A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13B7F081D5E7F3200D283A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13B7F121D5E7F6F00D283A8 /* Riskeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Riskeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B7F141D5E7F6F00D283A8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		F13B7F161D5E7F6F00D283A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13B7F1E1D5E7FC300D283A8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F13B7F201D5E7FE300D283A8 /* GetHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHelp.swift; sourceTree = "<group>"; };
+		F13B7F221D5E7FED00D283A8 /* InfoHotlines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoHotlines.swift; sourceTree = "<group>"; };
+		F13B7F241D5E7FFB00D283A8 /* SendHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendHelp.swift; sourceTree = "<group>"; };
+		F13B7F261D5E809700D283A8 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		F13B7F281D5E80A800D283A8 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13B7EF61D5E7F3200D283A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B7F0F1D5E7F6F00D283A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13B7EF01D5E7F3200D283A8 = {
+			isa = PBXGroup;
+			children = (
+				F13B7EFB1D5E7F3200D283A8 /* Riskeys */,
+				F13B7F131D5E7F6F00D283A8 /* Riskeyboard */,
+				F13B7EFA1D5E7F3200D283A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13B7EFA1D5E7F3200D283A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13B7EF91D5E7F3200D283A8 /* Riskeys.app */,
+				F13B7F121D5E7F6F00D283A8 /* Riskeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13B7EFB1D5E7F3200D283A8 /* Riskeys */ = {
+			isa = PBXGroup;
+			children = (
+				F13B7EFC1D5E7F3200D283A8 /* AppDelegate.swift */,
+				F13B7EFE1D5E7F3200D283A8 /* ViewController.swift */,
+				F13B7F001D5E7F3200D283A8 /* Main.storyboard */,
+				F13B7F031D5E7F3200D283A8 /* Assets.xcassets */,
+				F13B7F051D5E7F3200D283A8 /* LaunchScreen.storyboard */,
+				F13B7F081D5E7F3200D283A8 /* Info.plist */,
+			);
+			path = Riskeys;
+			sourceTree = "<group>";
+		};
+		F13B7F131D5E7F6F00D283A8 /* Riskeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F13B7F141D5E7F6F00D283A8 /* KeyboardViewController.swift */,
+				F13B7F1E1D5E7FC300D283A8 /* CustomTableViewCell.swift */,
+				F13B7F201D5E7FE300D283A8 /* GetHelp.swift */,
+				F13B7F221D5E7FED00D283A8 /* InfoHotlines.swift */,
+				F13B7F241D5E7FFB00D283A8 /* SendHelp.swift */,
+				F13B7F261D5E809700D283A8 /* CustomTableViewCell.xib */,
+				F13B7F281D5E80A800D283A8 /* View.xib */,
+				F13B7F161D5E7F6F00D283A8 /* Info.plist */,
+			);
+			path = Riskeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13B7EF81D5E7F3200D283A8 /* Riskeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B7F0B1D5E7F3200D283A8 /* Build configuration list for PBXNativeTarget "Riskeys" */;
+			buildPhases = (
+				F13B7EF51D5E7F3200D283A8 /* Sources */,
+				F13B7EF61D5E7F3200D283A8 /* Frameworks */,
+				F13B7EF71D5E7F3200D283A8 /* Resources */,
+				F13B7F1D1D5E7F6F00D283A8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13B7F181D5E7F6F00D283A8 /* PBXTargetDependency */,
+			);
+			name = Riskeys;
+			productName = Riskeys;
+			productReference = F13B7EF91D5E7F3200D283A8 /* Riskeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13B7F111D5E7F6F00D283A8 /* Riskeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B7F1A1D5E7F6F00D283A8 /* Build configuration list for PBXNativeTarget "Riskeyboard" */;
+			buildPhases = (
+				F13B7F0E1D5E7F6F00D283A8 /* Sources */,
+				F13B7F0F1D5E7F6F00D283A8 /* Frameworks */,
+				F13B7F101D5E7F6F00D283A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Riskeyboard;
+			productName = Riskeyboard;
+			productReference = F13B7F121D5E7F6F00D283A8 /* Riskeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13B7EF11D5E7F3200D283A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Carol Zhang";
+				TargetAttributes = {
+					F13B7EF81D5E7F3200D283A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F13B7F111D5E7F6F00D283A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F13B7EF41D5E7F3200D283A8 /* Build configuration list for PBXProject "Riskeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13B7EF01D5E7F3200D283A8;
+			productRefGroup = F13B7EFA1D5E7F3200D283A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13B7EF81D5E7F3200D283A8 /* Riskeys */,
+				F13B7F111D5E7F6F00D283A8 /* Riskeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13B7EF71D5E7F3200D283A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B7F071D5E7F3200D283A8 /* LaunchScreen.storyboard in Resources */,
+				F13B7F041D5E7F3200D283A8 /* Assets.xcassets in Resources */,
+				F13B7F021D5E7F3200D283A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B7F101D5E7F6F00D283A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B7F291D5E80A800D283A8 /* View.xib in Resources */,
+				F13B7F271D5E809700D283A8 /* CustomTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13B7EF51D5E7F3200D283A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B7EFF1D5E7F3200D283A8 /* ViewController.swift in Sources */,
+				F13B7EFD1D5E7F3200D283A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B7F0E1D5E7F6F00D283A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B7F251D5E7FFB00D283A8 /* SendHelp.swift in Sources */,
+				F13B7F211D5E7FE300D283A8 /* GetHelp.swift in Sources */,
+				F13B7F1F1D5E7FC300D283A8 /* CustomTableViewCell.swift in Sources */,
+				F13B7F151D5E7F6F00D283A8 /* KeyboardViewController.swift in Sources */,
+				F13B7F231D5E7FED00D283A8 /* InfoHotlines.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13B7F181D5E7F6F00D283A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13B7F111D5E7F6F00D283A8 /* Riskeyboard */;
+			targetProxy = F13B7F171D5E7F6F00D283A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13B7F001D5E7F3200D283A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13B7F011D5E7F3200D283A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13B7F051D5E7F3200D283A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13B7F061D5E7F3200D283A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13B7F091D5E7F3200D283A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13B7F0A1D5E7F3200D283A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13B7F0C1D5E7F3200D283A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Riskeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F13B7F0D1D5E7F3200D283A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Riskeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F13B7F1B1D5E7F6F00D283A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Riskeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys.Riskeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F13B7F1C1D5E7F6F00D283A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Riskeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys.Riskeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13B7EF41D5E7F3200D283A8 /* Build configuration list for PBXProject "Riskeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B7F091D5E7F3200D283A8 /* Debug */,
+				F13B7F0A1D5E7F3200D283A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13B7F0B1D5E7F3200D283A8 /* Build configuration list for PBXNativeTarget "Riskeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B7F0C1D5E7F3200D283A8 /* Debug */,
+				F13B7F0D1D5E7F3200D283A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F13B7F1A1D5E7F6F00D283A8 /* Build configuration list for PBXNativeTarget "Riskeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B7F1B1D5E7F6F00D283A8 /* Debug */,
+				F13B7F1C1D5E7F6F00D283A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13B7EF11D5E7F3200D283A8 /* Project object */;
+}
