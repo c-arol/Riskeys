@@ -8,4 +8,4 @@
 
 import Foundation
 
-var sendHelpArray = ["Stay calm, I'm calling for help." , "Help is on the way!" , "poop" , "shiba"]
+var sendHelpArray = ["Stay calm, I'm calling for help. " , "Help is on the way! " , "I contacted the police, stay calm. " , "Don't worry, help will arrive shortly! " , "I'm here to listen. " , "The ambulance should be there soon. " , "Stay put, we're coming !"]

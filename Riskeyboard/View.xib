@@ -15,49 +15,56 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgW-jq-xN0">
-                    <rect key="frame" x="47" y="190" width="61" height="30"/>
-                    <state key="normal" title="Get Help"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgW-jq-xN0">
+                    <rect key="frame" x="76" y="182" width="35" height="35"/>
+                    <state key="normal" image="get"/>
                     <connections>
                         <action selector="getHelp:" destination="-1" eventType="touchUpInside" id="Tit-c8-e9F"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meM-xp-RAW">
-                    <rect key="frame" x="7" y="190" width="32" height="30"/>
-                    <state key="normal" title="Next"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meM-xp-RAW">
+                    <rect key="frame" x="8" y="182" width="35" height="35"/>
+                    <state key="normal" image="globe"/>
                     <connections>
                         <action selector="nextKeyboard:" destination="-1" eventType="touchUpInside" id="wSa-b3-XbT"/>
                     </connections>
                 </button>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tgp-xZ-1ie">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="188"/>
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="177"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctG-wh-OCI">
-                    <rect key="frame" x="116" y="190" width="71" height="30"/>
-                    <state key="normal" title="Send Help"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctG-wh-OCI">
+                    <rect key="frame" x="143" y="182" width="35" height="35"/>
+                    <state key="normal" image="send"/>
                     <connections>
                         <action selector="sendHelp:" destination="-1" eventType="touchUpInside" id="5sl-cD-HCC"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxN-xN-FMv">
-                    <rect key="frame" x="195" y="190" width="57" height="30"/>
-                    <state key="normal" title="Hotlines"/>
-                    <connections>
-                        <action selector="sendHotline:" destination="-1" eventType="touchUpInside" id="7fT-Mp-n3Z"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwo-W7-fpf">
-                    <rect key="frame" x="261" y="190" width="45" height="30"/>
-                    <state key="normal" title="Delete"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwo-W7-fpf">
+                    <rect key="frame" x="277" y="182" width="35" height="35"/>
+                    <state key="normal" image="delete"/>
                     <connections>
                         <action selector="backspace:" destination="-1" eventType="touchUpInside" id="YBm-B6-S1v"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxN-xN-FMv">
+                    <rect key="frame" x="216" y="182" width="35" height="35"/>
+                    <state key="normal" image="hotline"/>
+                    <connections>
+                        <action selector="sendHotline:" destination="-1" eventType="touchUpInside" id="7fT-Mp-n3Z"/>
+                    </connections>
+                </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="279" y="404"/>
         </view>
     </objects>
+    <resources>
+        <image name="delete" width="40" height="40"/>
+        <image name="get" width="40" height="40"/>
+        <image name="globe" width="40" height="40"/>
+        <image name="hotline" width="40" height="40"/>
+        <image name="send" width="40" height="40"/>
+    </resources>
 </document>

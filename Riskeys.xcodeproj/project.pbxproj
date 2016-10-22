@@ -20,6 +20,19 @@
 		F13B7F251D5E7FFB00D283A8 /* SendHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B7F241D5E7FFB00D283A8 /* SendHelp.swift */; };
 		F13B7F271D5E809700D283A8 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F261D5E809700D283A8 /* CustomTableViewCell.xib */; };
 		F13B7F291D5E80A800D283A8 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F281D5E80A800D283A8 /* View.xib */; };
+		F13B7F371D5F4DFE00D283A8 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F2B1D5F4CE300D283A8 /* AvenirLTStd-Black.otf */; };
+		F13B7F381D5F4DFE00D283A8 /* AvenirLTStd-BlackOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F2C1D5F4CE300D283A8 /* AvenirLTStd-BlackOblique.otf */; };
+		F13B7F391D5F4DFE00D283A8 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F2D1D5F4CE300D283A8 /* AvenirLTStd-Book.otf */; };
+		F13B7F3A1D5F4DFE00D283A8 /* AvenirLTStd-BookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F2E1D5F4CE300D283A8 /* AvenirLTStd-BookOblique.otf */; };
+		F13B7F3B1D5F4DFE00D283A8 /* AvenirLTStd-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F2F1D5F4CE300D283A8 /* AvenirLTStd-Heavy.otf */; };
+		F13B7F3C1D5F4DFE00D283A8 /* AvenirLTStd-HeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F301D5F4CE300D283A8 /* AvenirLTStd-HeavyOblique.otf */; };
+		F13B7F3D1D5F4DFE00D283A8 /* AvenirLTStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F311D5F4CE300D283A8 /* AvenirLTStd-Light.otf */; };
+		F13B7F3E1D5F4DFE00D283A8 /* AvenirLTStd-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F321D5F4CE300D283A8 /* AvenirLTStd-LightOblique.otf */; };
+		F13B7F3F1D5F4DFE00D283A8 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F331D5F4CE300D283A8 /* AvenirLTStd-Medium.otf */; };
+		F13B7F401D5F4DFE00D283A8 /* AvenirLTStd-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F341D5F4CE300D283A8 /* AvenirLTStd-MediumOblique.otf */; };
+		F13B7F411D5F4DFE00D283A8 /* AvenirLTStd-Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F351D5F4CE300D283A8 /* AvenirLTStd-Oblique.otf */; };
+		F13B7F421D5F4DFE00D283A8 /* AvenirLTStd-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F361D5F4CE300D283A8 /* AvenirLTStd-Roman.otf */; };
+		F13B7F431D5F57D300D283A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13B7F031D5E7F3200D283A8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +76,18 @@
 		F13B7F241D5E7FFB00D283A8 /* SendHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendHelp.swift; sourceTree = "<group>"; };
 		F13B7F261D5E809700D283A8 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		F13B7F281D5E80A800D283A8 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		F13B7F2B1D5F4CE300D283A8 /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-Black.otf"; path = "../../avenir-lt-std/AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
+		F13B7F2C1D5F4CE300D283A8 /* AvenirLTStd-BlackOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-BlackOblique.otf"; path = "../../avenir-lt-std/AvenirLTStd-BlackOblique.otf"; sourceTree = "<group>"; };
+		F13B7F2D1D5F4CE300D283A8 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-Book.otf"; path = "../../avenir-lt-std/AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		F13B7F2E1D5F4CE300D283A8 /* AvenirLTStd-BookOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-BookOblique.otf"; path = "../../avenir-lt-std/AvenirLTStd-BookOblique.otf"; sourceTree = "<group>"; };
+		F13B7F2F1D5F4CE300D283A8 /* AvenirLTStd-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-Heavy.otf"; path = "../../avenir-lt-std/AvenirLTStd-Heavy.otf"; sourceTree = "<group>"; };
+		F13B7F301D5F4CE300D283A8 /* AvenirLTStd-HeavyOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-HeavyOblique.otf"; path = "../../avenir-lt-std/AvenirLTStd-HeavyOblique.otf"; sourceTree = "<group>"; };
+		F13B7F311D5F4CE300D283A8 /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-Light.otf"; path = "../../avenir-lt-std/AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
+		F13B7F321D5F4CE300D283A8 /* AvenirLTStd-LightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-LightOblique.otf"; path = "../../avenir-lt-std/AvenirLTStd-LightOblique.otf"; sourceTree = "<group>"; };
+		F13B7F331D5F4CE300D283A8 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-Medium.otf"; path = "../../avenir-lt-std/AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
+		F13B7F341D5F4CE300D283A8 /* AvenirLTStd-MediumOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-MediumOblique.otf"; path = "../../avenir-lt-std/AvenirLTStd-MediumOblique.otf"; sourceTree = "<group>"; };
+		F13B7F351D5F4CE300D283A8 /* AvenirLTStd-Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-Oblique.otf"; path = "../../avenir-lt-std/AvenirLTStd-Oblique.otf"; sourceTree = "<group>"; };
+		F13B7F361D5F4CE300D283A8 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirLTStd-Roman.otf"; path = "../../avenir-lt-std/AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +142,7 @@
 		F13B7F131D5E7F6F00D283A8 /* Riskeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				F13B7F2A1D5F4CD700D283A8 /* Font */,
 				F13B7F141D5E7F6F00D283A8 /* KeyboardViewController.swift */,
 				F13B7F1E1D5E7FC300D283A8 /* CustomTableViewCell.swift */,
 				F13B7F201D5E7FE300D283A8 /* GetHelp.swift */,
@@ -127,6 +153,25 @@
 				F13B7F161D5E7F6F00D283A8 /* Info.plist */,
 			);
 			path = Riskeyboard;
+			sourceTree = "<group>";
+		};
+		F13B7F2A1D5F4CD700D283A8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F13B7F2B1D5F4CE300D283A8 /* AvenirLTStd-Black.otf */,
+				F13B7F2C1D5F4CE300D283A8 /* AvenirLTStd-BlackOblique.otf */,
+				F13B7F2D1D5F4CE300D283A8 /* AvenirLTStd-Book.otf */,
+				F13B7F2E1D5F4CE300D283A8 /* AvenirLTStd-BookOblique.otf */,
+				F13B7F2F1D5F4CE300D283A8 /* AvenirLTStd-Heavy.otf */,
+				F13B7F301D5F4CE300D283A8 /* AvenirLTStd-HeavyOblique.otf */,
+				F13B7F311D5F4CE300D283A8 /* AvenirLTStd-Light.otf */,
+				F13B7F321D5F4CE300D283A8 /* AvenirLTStd-LightOblique.otf */,
+				F13B7F331D5F4CE300D283A8 /* AvenirLTStd-Medium.otf */,
+				F13B7F341D5F4CE300D283A8 /* AvenirLTStd-MediumOblique.otf */,
+				F13B7F351D5F4CE300D283A8 /* AvenirLTStd-Oblique.otf */,
+				F13B7F361D5F4CE300D283A8 /* AvenirLTStd-Roman.otf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +225,11 @@
 				TargetAttributes = {
 					F13B7EF81D5E7F3200D283A8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P3CTGZF88H;
 					};
 					F13B7F111D5E7F6F00D283A8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P3CTGZF88H;
 					};
 				};
 			};
@@ -220,6 +267,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13B7F371D5F4DFE00D283A8 /* AvenirLTStd-Black.otf in Resources */,
+				F13B7F381D5F4DFE00D283A8 /* AvenirLTStd-BlackOblique.otf in Resources */,
+				F13B7F391D5F4DFE00D283A8 /* AvenirLTStd-Book.otf in Resources */,
+				F13B7F3A1D5F4DFE00D283A8 /* AvenirLTStd-BookOblique.otf in Resources */,
+				F13B7F431D5F57D300D283A8 /* Assets.xcassets in Resources */,
+				F13B7F3B1D5F4DFE00D283A8 /* AvenirLTStd-Heavy.otf in Resources */,
+				F13B7F3C1D5F4DFE00D283A8 /* AvenirLTStd-HeavyOblique.otf in Resources */,
+				F13B7F3D1D5F4DFE00D283A8 /* AvenirLTStd-Light.otf in Resources */,
+				F13B7F3E1D5F4DFE00D283A8 /* AvenirLTStd-LightOblique.otf in Resources */,
+				F13B7F3F1D5F4DFE00D283A8 /* AvenirLTStd-Medium.otf in Resources */,
+				F13B7F401D5F4DFE00D283A8 /* AvenirLTStd-MediumOblique.otf in Resources */,
+				F13B7F411D5F4DFE00D283A8 /* AvenirLTStd-Oblique.otf in Resources */,
+				F13B7F421D5F4DFE00D283A8 /* AvenirLTStd-Roman.otf in Resources */,
 				F13B7F291D5E80A800D283A8 /* View.xib in Resources */,
 				F13B7F271D5E809700D283A8 /* CustomTableViewCell.xib in Resources */,
 			);
@@ -368,11 +428,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Riskeys/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -380,21 +443,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Riskeys/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		F13B7F1B1D5E7F6F00D283A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Riskeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys.Riskeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -402,10 +471,13 @@
 		F13B7F1C1D5E7F6F00D283A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Riskeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carol.Riskeys.Riskeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -429,6 +501,7 @@
 				F13B7F0D1D5E7F3200D283A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F13B7F1A1D5E7F6F00D283A8 /* Build configuration list for PBXNativeTarget "Riskeyboard" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +510,7 @@
 				F13B7F1C1D5E7F6F00D283A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

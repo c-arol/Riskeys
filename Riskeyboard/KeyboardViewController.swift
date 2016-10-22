@@ -50,6 +50,7 @@ class KeyboardViewController: UIInputViewController {
     
     @IBAction func getHelp(sender: AnyObject) {
         
+        //let proxy = textDocumentProxy as UITextDocumentProxy
         tabNumber = 1
         tableView.reloadData()
         print("get help now!")
@@ -74,7 +75,7 @@ class KeyboardViewController: UIInputViewController {
     }
     
     override func viewDidLoad() {
-        
+        self.tabNumber = 1
         super.viewDidLoad()
 
         loadKeyboardView()
@@ -119,14 +120,14 @@ class KeyboardViewController: UIInputViewController {
     override func textDidChange(textInput: UITextInput?) {
         // The app has just changed the document's contents, the document context has been updated.
         
-                //var textColor: UIColor
-                //let proxy = self.textDocumentProxy
-                //if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
-                   //textColor = UIColor.whiteColor()
-                //} else {
-                    //textColor = UIColor.blackColor()
-                //}
-                //self.nextKeyboard.setTitleColor(textColor, forState: .Normal)
+        //        var textColor: UIColor
+        //        let proxy = self.textDocumentProxy
+        //        if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
+        //            textColor = UIColor.whiteColor()
+        //        } else {
+        //            textColor = UIColor.blackColor()
+        //        }
+        //        self.nextKeyboardButton.setTitleColor(textColor, forState: .Normal)
     }
     
 }
